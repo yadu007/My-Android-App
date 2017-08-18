@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/form_list_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="8"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:text="Set Meter Location"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:id="@+id/button13"
+            android:layout_weight="1"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="sendMessage"
+            android:elevation="2dp" />
+    </LinearLayout>
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:text="Scanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button14"
+            android:background="@color/wallet_dim_foreground_disabled_holo_dark"
+            android:onClick="Scan"/>
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:text="Static View"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:id="@+id/buttondcu"
+            android:layout_weight="1"
+            style="@android:style/Widget.Material.Button.Toggle"
+            android:background="@color/wallet_holo_blue_light"
+            android:onClick="showdcu"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:text="Serial Com"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:id="@+id/buttonSerial"
+            android:layout_weight="1"
+            style="@android:style/Widget.Material.Button.Toggle"
+            android:background="@android:color/holo_blue_dark"
+            android:onClick="serial"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
